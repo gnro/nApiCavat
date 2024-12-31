@@ -1,0 +1,38 @@
+{
+  "name": "apicavat",
+  "version": "1.0.0",
+  "description": "Conjunto de endPoints para el sistema Cavat",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon .\\index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gnro/nApiCavat.git"
+  },
+  "keywords": [
+    "Cavat",
+    "bd",
+    "ps"
+  ],
+  "author": "GnroJmz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gnro/nApiCavat/issues"
+  },
+  "homepage": "https://github.com/gnro/nApiCavat#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "picocolors": "1.1.1",
+    "swagger-express-mw": "^0.7.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-node-codegen": "^1.6.3",
+    "swagger-ui-express": "^5.0.1",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "standard": "^17.1.2"
+  }
+}

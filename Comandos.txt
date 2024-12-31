@@ -1,0 +1,11 @@
+npm init
+npm i swagger-jsdoc swagger-ui-express
+npm install express
+npm i dotenv
+npm i yamljs
+npm i --save swagger-node-codegen
+npm install --save swagger-node-codegen
+npm install -g swagger-node-codegen
+snc docs/swagger.yaml -o ./my-api
+node env-file config/.env dataBase/config.js
+npm i swagger-express-mw
